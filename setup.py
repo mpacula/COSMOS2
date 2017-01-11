@@ -39,7 +39,8 @@ install_requires = [
     # "pyparsing==1.5.7",
     'psutil',
     "drmaa",
-    'more_itertools'
+    'more_itertools',
+    'boto3'
 ]
 
 if sys.version_info < (3,):
